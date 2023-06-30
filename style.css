@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Raleway:wght@100&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Playfair+Display&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Playfair+Display&family=Raleway:wght@100&family=Varela+Round&display=swap');
+
+body{
+    background-color: aliceblue;
+    background-image: url(/Images/bghome.png);
+}
+*{
+    margin: 0px;
+    padding:0px;
+}
+nav{
+    font-size: 18px;
+    font-family: 'Varela Round', sans-serif;
+}
+nav ul{
+    color: aliceblue;
+    list-style: none;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height:65px;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    padding:0px 15px;
+    color: aliceblue;
+
+}
+nav ul li a:hover, .active{
+    cursor: pointer;
+    color: grey;
+}
+.brand img{
+    padding:0px 8px;
+    width:50px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+.rightnav{
+    display: flex;
+    align-items: center;
+}
+.rightnav li{
+    position: relative;
+    left:1150px;
+}
+
+
+.btn{
+    color: black;
+    margin: 10px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    padding: 14px 23px;
+    font-size: 15px;
+}
+
+.btn:hover{
+    color:black;
+    cursor: pointer;
+    background-color: #00bc3e;
+}
+.container{
+    min-height:69vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width:70%;
+    border-radius: 15px;
+    padding:20px;
+    background-image: url("/Images/bg.jpg");
+}
+.songcontainer{
+    margin:70px 0px;
+}
+.songItem{
+    font-size: 22px;
+    height:45px;
+    display:flex;
+    background-color: aliceblue;
+    color:black;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+
+}
+.songItem img{
+    width:40px;
+    margin: 0px 30px;
+    border-radius: 30px;
+}
+.icons{
+    margin-top: 15px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songlistplay{
+    margin:0px 40px;
+}
+.timespamp i{
+    cursor: pointer;
+
+}
+.bottom{
+    background-color: black;
+    color: aliceblue;
+    position: sticky;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#myprogressBar{
+    cursor: pointer;
+   width:80%;
+}
+.songInfo{
+    font-family: 'Varela Round', sans-serif;
+    position: absolute;
+    left: 10vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+
