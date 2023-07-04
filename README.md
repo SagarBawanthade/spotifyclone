@@ -7,7 +7,7 @@ This is a basic Spotify clone with the functionality of a music player. It is bu
 - Play and pause music
 - Previous and next track navigation
 - Progress bar for track duration
-- Display track information (album)
+- Display track information (album, like song name)
 
 ## Demo
 
