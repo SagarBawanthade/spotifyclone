@@ -36,5 +36,5 @@ Home Page
 2. just start the live server
 
 ## Future Updates
-Soon this repo will be updated with new Frameworks & Libraries like REACT JS, EXPRESS JS etc. 
+Soon this repo will be updated with new Frameworks & Libraries like REACT JS, EXPRESS JS & don't forget to leave a star.
 
