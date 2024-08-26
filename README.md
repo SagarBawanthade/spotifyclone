@@ -13,6 +13,7 @@ This is a basic Spotify clone with the functionality of a music player. It is bu
 
 [Link to live demo](https://sagarbawanthade30.netlify.app) 
 
+
 ## Screenshots
 
 Home Page
